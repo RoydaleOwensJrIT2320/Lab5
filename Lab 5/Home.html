@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Lab 5</title>
+        <link href="Hide.Show.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+      <div class="ex">
+        
+        
+        <h1>The Internet Engineering Task Forces (IETF)</h1>
+        
+        <p>The Internet Engineering Task Forces is the top tier internet standard body, creating open standards through open processes. Their a large open international community of designers, operators, and researchers all working towards the internet architecture and the smooth operation of the internet. On December 1st, 2020, the internet society and IETF both come to an agreement that allows the continuation of critical work in the making open standards. This will allow things such as devices, applications, and services to work together across an interconnected network</p>
+        <button class="hide">Hide</button>
+        <button id="show">Show</button>
+        <a href="https://www.helpnetsecurity.com/2020/12/01/internet-society-ietf/">Source</a>
+      </div>
+        
+        <div class="ex">
+          <h1>
+            Internet Corporation for assigned names and numbers (ICANN)
+          </h1>
+          <P>The Internet corporation for assigned names and numbers is an international non-profit organization is in charge of making sure the internet is safe, stable, and interoperable. On May 1st, 2020 declined the proposal to sell the .org to a non-profit company.</P>
+          <button class="hide">Hide</button>
+        <button id="show">Show</button>
+        <a href="
+        https://www.google.com/amp/s/arstechnica.com/tech-policy/2020/05/icann-blocks-controversial-sale-of-org-domain-to-a-private-equity-firm/%3famp=1" target="blank_">Source</a>
+        </div>
+        <div class="ex">
+          <h1>
+            World Wide Web Consortium (W3C)
+          </h1>
+          <P>The world wide web consortium is an international organization that work in order to develop web standards. On January 28th 2021 W3C and IETF comes together and creates Web Real-Time Communications (WebRTC), is WebRTC is a new platform that allows real-time communication and collaboration to things such as mobile and browser apps.</P>
+          <button class="hide">Hide</button>
+        <button id="show">Show</button>
+        <a href="https://sdtimes.com/softwaredev/the-w3c-and-ietf-make-webrtc-an-official-standard/"target="blank_">Source</a>
+        </div>
+        <script>
+          $(document).ready(function(){
+    $(".ex .hide").click(function(){
+      $(this).parents(".ex").hide("slow");
+    });
+    $("#show").click(function(){
+      $(".ex").show();
+    });
+  });
+  
+  
+   
+            
+            </script>
+    </body>
+
+</html>
